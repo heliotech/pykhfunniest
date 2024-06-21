@@ -51,7 +51,7 @@ Installation
 
 - Go to the project directory
 
-    `cd kh-funniest/dist`
+    `cd pykhfunniest/dist`
 
 - Install with `pip`:
 
