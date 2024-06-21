@@ -5,6 +5,9 @@ description = ""
 authors = ["khaz <pykhaz@o2.pl>"]
 readme = "README.rst"
 
+[tool.poetry.publish]
+repository = "testpypi"
+
 [tool.poetry.dependencies]
 python = "^3.10"
 rich = "^13.7.1"
