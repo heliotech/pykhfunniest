@@ -10,6 +10,7 @@
 
 Small application for learning the packaging of a python project.
 
+
 Basic structure:
 
 .. code-block:: text
