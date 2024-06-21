@@ -3,7 +3,7 @@ name = "pykhfunniest"
 version = "1.0.0"
 description = "A small application for learning the packaging of a Python project."
 authors = ["khaz <pykhaz@o2.pl>"]
-readme = "readme.md"
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
