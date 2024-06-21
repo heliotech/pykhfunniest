@@ -38,7 +38,7 @@ Table of Contents
 
 - `Installation`_
 - `Usage`_
-- `License`_
+- `License <#license_section>`_
 - `Contact`_
 
 Installation
@@ -76,6 +76,8 @@ Usage
     $ python pykhfunniest
         - What do you get if you cross a snowman and a vampire?
         - Frostbite.
+
+.. _license_section:
 
 License
 --------
