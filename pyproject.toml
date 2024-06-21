@@ -6,7 +6,9 @@ authors = ["khaz <pykhaz@o2.pl>"]
 readme = "README.rst"
 
 [tool.poetry.publish]
-repository = "testpypi"
+testpypi = {
+    url = "https://test.pypi.org/legacy/"
+}
 
 [tool.poetry.dependencies]
 python = "^3.10"
