@@ -1,0 +1,64 @@
+<h1 id="python-joke">python joke</h1>
+<img src="pykhfunniest/assets/laugh_emoji.png" alt="emoji laugh smile" width="150" />
+<p>Small application for learning the packaging of a python project.</p>
+<p>Basic structure:</p>
+<pre class="text"><code>|-- pykhfunniest
+    |-- dist
+    |   |-- pykhfunniest-1.0.0-py3-none-any.whl
+    |   |-- pykhfunniest-1.0.0.tar.gz
+    |
+    |-- LICENSE
+    |-- poetry.lock
+    |-- pykhfunniest
+    |   |-- assets
+    |   |   |-- laugh_emoji.png
+    |   |-- __init__.py
+    |   |-- __main__.py
+    |   |-- tell_joke.py
+    |
+    |-- pyproject.toml
+    |-- README.rst
+    |-- tests
+        |-- __init__.py</code></pre>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#usage">Usage</a></li>
+<li><a href="#license_section">License</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+<h2 id="installation">Installation</h2>
+<ul>
+<li><p>Clone the repository</p>
+<blockquote>
+<p><span class="title-ref">git clone https://github.com/heliokhaz/pykhfunniest.git</span></p>
+</blockquote></li>
+<li><p>Go to the project directory</p>
+<blockquote>
+<p><span class="title-ref">cd pykhfunniest/dist</span></p>
+</blockquote></li>
+<li><p>Install with `pip`:</p>
+<blockquote>
+<p><span class="title-ref">pip install pykhfunniest-1.0.0-py3-none-any.whl</span></p>
+</blockquote></li>
+</ul>
+<h2 id="usage">Usage</h2>
+<ol type="1">
+<li>REPL</li>
+</ol>
+<pre><code>&gt;&gt;&gt; from pykhfunniest import joke
+&gt;&gt;&gt; joke()
+    - Why did the scarecrow win an award?
+    - Because he was outstanding in his field!</code></pre>
+<ol start="2" type="1">
+<li>Terminal</li>
+</ol>
+<pre><code>$ python pykhfunniest
+    - What do you get if you cross a snowman and a vampire?
+    - Frostbite.</code></pre>
+<h2 id="license_section">License</h2>
+<p>This project is licensed under the MIT License - see the <a href="./LICENSE">LICENSE</a> file for details.</p>
+<h2 id="contact">Contact</h2>
+<blockquote>
+<p><a href="mailto:pykhaz@o2.pl">pykhaz@o2.pl</a></p>
+</blockquote>
