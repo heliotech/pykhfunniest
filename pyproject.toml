@@ -1,20 +1,19 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
 [tool.poetry]
 name = "pykhfunniest"
 version = "1.0.0"
-description = ""
+description = "A small application for learning the packaging of a Python project."
 authors = ["khaz <pykhaz@o2.pl>"]
-readme = "README.rst"
-
-[tool.poetry.publish]
-testpypi = {
-    url = "https://test.pypi.org/legacy/"
-}
+readme = "readme.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
 rich = "^13.7.1"
 
-
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
