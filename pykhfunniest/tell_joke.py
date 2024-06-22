@@ -26,16 +26,32 @@ jokes = [
 ]
 
 
-def joke(nr=None):
+def get_joke_nr(nr):
+    joke_max = len(jokes)
+    if nr not in range(1, joke_max + 1):
+        return random.randint(1, joke_max)
+    return nr
+
+
+def joke(nr_=None, dbg=False):
     """ Telling a random joke """
 
-    nr = nr if nr else random.randint(0, len(jokes) - 1)
-    chosen_as_list = jokes[nr]
+    nr = get_joke_nr(nr_)
+    chosen_as_list = jokes[nr - 1]
+    if nr_ is not None and nr_ != nr:
+        msg = (f", there is no joke of this number, {nr_}, yet. "
+               "Chosen random number.")
+    else:
+        msg = ""
     for i, sentence in enumerate(chosen_as_list):
         sentence_len = len(chosen_as_list)
         # assuming the punchline is the last one:
         style = "bold italic" if i == (sentence_len - 1) else ""
         cprint(f"\t- {sentence[0]}", style=style)
+    if not dbg:
+        print(f"\t(joke nr {nr}{msg})")
+        return
+    return chosen_as_list[1]
 
 
 def main():
