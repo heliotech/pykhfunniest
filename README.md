@@ -4,6 +4,14 @@
 
 Small application for learning the packaging of a Python project.
 
+---
+
+[![CI](https://github.com/heliotech/pykhfunniest/actions/workflows/ci.yml/badge.svg)](https://github.com/heliotech/pykhfunniest/actions/workflows/ci.yml)
+![Uses YAML](https://img.shields.io/badge/Uses-YAML-ff69b4)
+![Built with Poetry](https://img.shields.io/badge/Built%20with-Poetry-60c7a8)
+![Python version](https://img.shields.io/badge/Python-3.10-blue)
+
+---
 ### Basic Structure
 
     |-- pykhfunniest
